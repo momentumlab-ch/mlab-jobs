@@ -1,0 +1,63 @@
+/* MomentumLab Jobs: schlichte Grundgestaltung, Farben und Schriften kommen vom Theme. */
+.mlab-jobs-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 1rem;
+}
+
+.mlab-jobs-card {
+	padding: 1.25rem 1.5rem;
+	border: 1.5px solid currentColor;
+	border-color: color-mix(in srgb, currentColor 18%, transparent);
+	border-radius: 1rem;
+}
+
+.mlab-jobs-card h3 {
+	margin: 0 0 0.35rem;
+}
+
+.mlab-jobs-card a {
+	text-decoration: none;
+}
+
+.mlab-jobs-meta {
+	margin: 0 0 0.5rem;
+	font-size: 0.9rem;
+	opacity: 0.75;
+}
+
+.mlab-jobs-more::after {
+	content: " \2192";
+}
+
+.mlab-jobs-facts {
+	list-style: none;
+	margin: 0 0 1.5rem;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap: 0.6rem;
+}
+
+.mlab-jobs-facts li {
+	padding: 0.9rem 1rem;
+	border-radius: 0.75rem;
+	background: color-mix(in srgb, currentColor 6%, transparent);
+}
+
+.mlab-jobs-facts strong {
+	display: block;
+	font-size: 0.8rem;
+	opacity: 0.75;
+}
+
+.mlab-jobs-apply {
+	margin-top: 2rem;
+}
+
+.mlab-jobs-closed {
+	padding: 0.9rem 1.1rem;
+	border-left: 4px solid currentColor;
+}
